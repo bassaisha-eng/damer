@@ -779,6 +779,7 @@ label.checkbox input{ margin-top: 0; }
   align-self: start;
   animation: fadeUp 0.4s ease both;
 }
+.proposal-success__icon{ display: block; margin: 0 auto 20px; animation: fadeUp 0.4s ease both; }
 .proposal-success__title{ font-family: var(--font-heading); font-size: 26px; margin: 0 0 16px; }
 .proposal-success__body{ color: var(--text-body); font-size: 16px; line-height: 1.7; margin: 0 0 20px; max-width: 480px; margin-left: auto; margin-right: auto; }
 

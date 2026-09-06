@@ -102,13 +102,13 @@
 
       <div class="accordion__item">
         <h3 class="accordion__header">
-          <button type="button" class="accordion__trigger" aria-expanded="true" aria-controls="service-panel-1" id="service-tab-1">
+          <button type="button" class="accordion__trigger" aria-expanded="false" aria-controls="service-panel-1" id="service-tab-1">
             <span class="accordion__num">01</span>
             <span class="accordion__title">ORGANIZAÇÃO DE EVENTOS CORPORATIVOS</span>
             <span class="accordion__icon" aria-hidden="true">+</span>
           </button>
         </h3>
-        <div class="accordion__panel" id="service-panel-1" role="region" aria-labelledby="service-tab-1">
+        <div class="accordion__panel" id="service-panel-1" role="region" aria-labelledby="service-tab-1" hidden>
           <div class="accordion__panel-inner">
             <p class="body-md body-md--light">Da concepção à execução, organizamos seminários, workshops, lançamentos, galas, assinaturas e recepções, garantindo uma equipa de protocolo alinhada com a sua organização.</p>
             <ul class="capability-grid">
@@ -531,6 +531,10 @@
     </form>
 
     <div class="proposal-success" id="proposal-success" hidden>
+      <svg class="proposal-success__icon" width="52" height="52" viewBox="0 0 52 52" aria-hidden="true">
+        <circle cx="26" cy="26" r="25" fill="none" stroke="#2f9e58" stroke-width="2"/>
+        <path fill="none" stroke="#2f9e58" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M15 27l7 7 15-15"/>
+      </svg>
       <p class="proposal-success__title">Pedido registado.</p>
       <p class="proposal-success__body" id="proposal-success-body"></p>
       <div class="btn-row btn-row--center">
