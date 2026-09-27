@@ -16,7 +16,7 @@
  */
 window.DAMER_CONFIG = {
   FORM_ENDPOINT: 'https://formspree.io/f/mqpkdnnz',
-  WHATSAPP_NUMBER: '258876647971',
+  WHATSAPP_NUMBER: '258840520244',
   WHATSAPP_MESSAGE: 'Olá, gostaria de solicitar informações sobre os serviços da DAMER para um evento.',
   EMAIL: 'comercial@damergrp.com',
 };
